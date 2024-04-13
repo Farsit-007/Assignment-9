@@ -38,7 +38,7 @@ const Header = () => {
                             {Links}
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost text-3xl font-extrabold ">Fa<span className="text-blue-500" style={{ margin: '-8px' }}>L</span>a Resi<span className="text-blue-500" style={{ margin: '-8px' }}>d</span>ence</Link>
+                    <Link to='/' className="btn btn-ghost text-2xl md:text-3xl font-extrabold ">Fa<span className="text-blue-500" style={{ margin: '-8px' }}>L</span>i Vil<span className="text-blue-500" style={{ margin: '-8px' }}>L</span>a</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

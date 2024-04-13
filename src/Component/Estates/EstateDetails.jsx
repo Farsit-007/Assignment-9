@@ -25,7 +25,7 @@ const EstateDetails = () => {
                         <h1 className="text-5xl text-center font-extrabold drop-shadow-2xl md:text-7xl  text-white">{nEstate.segment_name}</h1>
                     </div>
                 </div>
-                <div className="max-w-6xl mx-auto ">
+                <div className="max-w-6xl animate__animated animate__fadeInUp mx-auto ">
                     <div className="flex justify-between rounded-lg p-6 bg-white shadow-xl  relative bottom-12  ">
                         <div className="">
                             <h1 className="font-extrabold text-4xl lg:text-5xl  pb-3">{nEstate.segment_name}</h1>
@@ -35,7 +35,7 @@ const EstateDetails = () => {
                             </div>
                         </div>
                         <div className="">
-                            <h1 className="font-bold text-3xl lg:text-4xl text-blue-500 pb-3">{nEstate.price}</h1>
+                            <h1 className="font-bold animate__animated animate__backInDown text-3xl lg:text-4xl text-blue-500 pb-3">{nEstate.price}</h1>
                             <div className="badge p-4 font-bold text-lg mt-2 badge-ghost">
                                 <MdOutlineSell className=""/>
                                 {nEstate.status}
@@ -45,7 +45,8 @@ const EstateDetails = () => {
                 </div>
                 <div className="grid grid-cols-3 gap-8 max-w-6xl mx-auto ">
                     <div className="col-span-3 space-y-8 lg:col-span-2">
-                        <div className="rounded-xl bg-white shadow-md p-6 flex flex-col md:flex-row items-center gap-8 ">
+                        <div data-aos="fade-up"
+                    data-aos-duration="3000" className="rounded-xl bg-white shadow-md p-6 flex flex-col md:flex-row items-center gap-8 ">
                             <div className="py-3">
                                 <h1 className="text-3xl font-bold">Overview </h1>
                             </div>
@@ -69,11 +70,13 @@ const EstateDetails = () => {
 
                             </div>
                         </div>
-                        <div className="rounded-xl shadow-md p-6">
+                        <div data-aos="fade-up"
+                    data-aos-duration="4000" className="rounded-xl shadow-md p-6">
                             <h1 className="text-3xl py-2 font-bold">Description </h1>
                             <p className="font-medium text-[16px]">{nEstate.description}</p>
                         </div>
-                        <div className="rounded-xl shadow-md p-6">
+                        <div data-aos="fade-up"
+                    data-aos-duration="4000" className="rounded-xl shadow-md p-6">
                             <h1 className="text-3xl font-bold py-2">Details </h1>
                             <div>
                                 <div className="overflow-x-auto">
@@ -109,7 +112,8 @@ const EstateDetails = () => {
                             </div>
 
                         </div>
-                        <div className="rounded-xl shadow-md p-6"> 
+                        <div data-aos="fade-up"
+                    data-aos-duration="6000" className="rounded-xl shadow-md p-6"> 
                             <h1 className="text-3xl font-bold py-2">Facilities </h1>
                             <div className="">
                                 {nEstate.facilities.map((facility, index) => (
@@ -119,7 +123,8 @@ const EstateDetails = () => {
                         </div>
 
 
-                        <div className="rounded-xl shadow-md p-6">
+                        <div data-aos="fade-up"
+                    data-aos-duration="7000" className="rounded-xl shadow-md p-6">
                             <div>
                                 <h1 className="text-3xl font-bold pb-8">Location </h1>
                             </div>
@@ -140,12 +145,13 @@ const EstateDetails = () => {
                         </div>
 
                     </div>
-                    <div className="col-span-3 lg:col-span-1 relative">
-                        <section className="">
+                    <div  className="col-span-3 lg:col-span-1 relative">
+                        <section data-aos="fade-up"
+                    data-aos-duration="2000" className="">
                             <div>
                                 <h1 className="text-3xl pb-2 font-bold">Feature Gallery</h1>
                             </div>
-                            <div className="container shadow-lg rounded-lg grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
+                            <div className="container shadow-md rounded-lg grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
 
                                 <a  href="https://i.ibb.co/rQ6QWmD/image-1000x600-1.png" target="_blank" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm  md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square cursor-pointer">
                                   <img src="https://i.ibb.co/rQ6QWmD/image-1000x600-1.png" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm  md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square cursor-pointer" alt=""  />
@@ -188,8 +194,9 @@ const EstateDetails = () => {
                                 
                             </div>
                         </section>
-                        <section className="mt-5">
-                            <div className="container shadow-xl rounded-lg flex flex-col-reverse mx-auto lg:flex-row">
+                        <section data-aos="fade-up"
+                    data-aos-duration="2000" className="mt-5">
+                            <div className="container shadow-md rounded-lg flex flex-col-reverse mx-auto lg:flex-row">
                                 <div className="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-6 lg:p-6  ">
                                     <div className="flex space-x-2 sm:space-x-4">
                                         <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="text-blue-500 flex-shrink-0 w-6 h-6">

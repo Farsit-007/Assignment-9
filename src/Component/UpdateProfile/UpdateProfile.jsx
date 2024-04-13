@@ -6,6 +6,7 @@ import { useContext } from 'react';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 import toast, { Toaster } from 'react-hot-toast';
 import { Helmet } from 'react-helmet-async';
+import { ScrollRestoration } from "react-router-dom";
 const UpdateProfile = () => {
     const navigate = useNavigate();
     const { profileUpdate } = useContext(AuthContext)
@@ -33,7 +34,7 @@ const UpdateProfile = () => {
              <Helmet>
                 <title>FaLa | Update Profile</title>
             </Helmet>
-            <div className="md:w-[700px] p-8 bg-opacity-5 backdrop-blur-3xl bg-transparent-white rounded-xl sm:flex sm:items-center sm:space-x-6">
+            <div className="md:w-[700px] animate__animated animate__zoomIn p-8 bg-opacity-5 backdrop-blur-3xl bg-transparent-white rounded-xl sm:flex sm:items-center sm:space-x-6">
                 <div className="flex-shrink-0 w-full mb-6  md:w-[50%] sm:mb-0">
                     <Lottie
                         loop
@@ -75,6 +76,7 @@ const UpdateProfile = () => {
 
                 </div>
             </div>
+            <ScrollRestoration />
             <Toaster />
         </div>
     );
