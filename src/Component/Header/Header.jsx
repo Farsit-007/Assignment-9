@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useContext, useState } from "react";
 import '../Header/Header.css'
 import { AuthContext } from "../AuthProvider/AuthProvider";
+import f1 from '../../assets/fav.png'
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
     const [active, setActive] = useState(false);
@@ -38,7 +39,12 @@ const Header = () => {
                             {Links}
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost text-2xl md:text-3xl font-extrabold ">Fa<span className="text-blue-500" style={{ margin: '-8px' }}>L</span>i Vil<span className="text-blue-500" style={{ margin: '-8px' }}>L</span>a</Link>
+                   <div className="flex items-center">
+                    <div className="w-[50px] h-[50px]">
+                    <img src={f1} alt="" />
+                    </div>
+                   <Link to='/' className="btn btn-ghost text-2xl md:text-3xl font-extrabold ">Fa<span className="text-blue-500" style={{ margin: '-8px' }}>L</span>i Vil<span className="text-blue-500" style={{ margin: '-8px' }}>L</span>a</Link>
+                   </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

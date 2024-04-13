@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="font-Mulish">
             <Helmet>
-                <title>FaLa | Home</title>
+                <title>FaLi | Home</title>
             </Helmet>
             <div className="z-20">
                 <Banner></Banner>

@@ -87,9 +87,9 @@ const Login = () => {
             })
     }
     return (
-        <div className="flex   justify-center  items-center min-h-screen font-Mulish w-full h-screen bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/Rvxp3dD/minimalistic-cabin-blending-into-environment.jpg)` }}>
+        <div className="flex   justify-center  items-center min-h-screen font-Mulish w-full h-screen bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/LR0bkRy/3.jpg)` }}>
             <Helmet>
-                <title>FaLa | Login</title>
+                <title>FaLi | Login</title>
             </Helmet>
             <div className="flex justify-center  items-center min-h-screen">
                 <div className="flex text-white flex-col animate__animated animate__zoomIn bg-opacity-5 backdrop-blur-3xl bg-transparent-white  md:w-[450px] p-10 pb-4 pt-2 rounded-xl ">

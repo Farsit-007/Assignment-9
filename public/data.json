@@ -1,6 +1,6 @@
 [
     {
-        "image": "https://i.ibb.co/85B42r0/image-1000x600-2.png",
+        "image": "https://i.ibb.co/XCBfqzJ/image-1000x600.png",
         "estate_title": "Spacious Single-Family Home",
         "id": "001",
         "segment_name": "Single-family Homes",
@@ -102,7 +102,7 @@
         "lo" : "89.5635"
     },
     {
-        "image": "https://i.ibb.co/Hp45Q9K/15.png",
+        "image": "https://i.ibb.co/Y3jGv2W/image-1000x600-1.png",
         "estate_title": "Senior Living Community Retreat",
         "id": "005",
         "segment_name": "Senior living communities",
@@ -183,7 +183,7 @@
         "lo" : " 91.8687"
     },
     {
-        "image": "https://i.ibb.co/8cpD8Ny/18.png",
+        "image": "https://i.ibb.co/hH4MLgT/image-1000x600.png",
         "estate_title": "Condo in Business District",
         "id": "008",
         "segment_name": "Condos",

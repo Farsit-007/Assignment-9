@@ -30,9 +30,9 @@ const UpdateProfile = () => {
             })
     }
     return (
-        <div className="flex justify-center pt-12 items-center min-h-screen font-Mulish w-full h-[700px] bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/Rvxp3dD/minimalistic-cabin-blending-into-environment.jpg)` }}>
+        <div className="flex justify-center pt-12 items-center min-h-screen font-Mulish w-full h-[700px] bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/hgtXydB/modern-architecture-illuminates-night-with-luxury-elegance-generated-by-artificial-intelligence.jpg)` }}>
              <Helmet>
-                <title>FaLa | Update Profile</title>
+                <title>FaLi | Update Profile</title>
             </Helmet>
             <div className="md:w-[700px] animate__animated animate__zoomIn p-8 bg-opacity-5 backdrop-blur-3xl bg-transparent-white rounded-xl sm:flex sm:items-center sm:space-x-6">
                 <div className="flex-shrink-0 w-full mb-6  md:w-[50%] sm:mb-0">
@@ -68,7 +68,7 @@ const UpdateProfile = () => {
                         </div>
                         <div className="space-y-2">
                             <div>
-                                <button type="submit" className="w-full border px-8 py-3 font-semibold rounded-md bg-transparent text-white">Update</button>
+                                <button type="submit" className="w-full border px-8 py-3 font-semibold rounded-md bg-blue-500 border-none text-white">Update</button>
                             </div>
 
                         </div>

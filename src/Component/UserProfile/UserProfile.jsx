@@ -5,10 +5,10 @@ import { Helmet } from "react-helmet-async";
 const UserProfile = () => {
     const { user } = useContext(AuthContext);
     return (
-        <div className="flex justify-center  items-center min-h-screen font-Mulish w-full h-screen bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/Rvxp3dD/minimalistic-cabin-blending-into-environment.jpg)`}}>
+        <div className="flex justify-center  items-center min-h-screen font-Mulish w-full h-screen bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/BBZXZg1/3d-rendering-house-model.jpg)`}}>
            
             <Helmet>
-                <title>FaLa | User Profile</title>
+                <title>FaLi | User Profile</title>
             </Helmet>
             <div className="flex flex-col animate__animated animate__zoomIn justify-center bg-opacity-5 backdrop-blur-3xl bg-transparent-white space-y-4 w-[90%] mx-auto md:w-[450px] md:h-[450px] p-6  rounded-xl sm:px-12 ">
                 <div className="flex justify-end">

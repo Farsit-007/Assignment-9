@@ -52,7 +52,7 @@ const Banner = () => {
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className='w-full flex justify-start items-center h-screen bg-cover' style={{ backgroundImage: `url(https://i.ibb.co/jHtxN71/photorealistic-wooden-house-with-timber-structure.jpg)` }} >
+                    <div className='w-full flex justify-start items-center h-screen bg-cover' style={{ backgroundImage: `url(https://i.ibb.co/db3ytzd/2.jpg)` }} >
                         <div className='w-[80%] mx-auto flex flex-col-reverse md:flex-row gap-12 items-center'>
 
                             <div className='flex md:flex-col gap-6 animate__animated animate__fadeIn  text-white'>

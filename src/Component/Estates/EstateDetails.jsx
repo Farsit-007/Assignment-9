@@ -17,12 +17,12 @@ const EstateDetails = () => {
     return (
         <div>
              <Helmet>
-                <title>FaLa | Estate Details</title>
+                <title>FaLi | Estate Details</title>
             </Helmet>
             <section className="font-Mulish">
                 <div className=" bg-cover object-cover bg-slate-50" style={{ backgroundImage: `url(${nEstate.image})` }}>
                     <div className="flex flex-col justify-center items-center min-h-[350px] md:min-h-[550px]">
-                        <h1 className="text-5xl text-center font-extrabold drop-shadow-2xl md:text-7xl  text-white">{nEstate.segment_name}</h1>
+                        <h1 className="text-5xl text-center font-extrabold drop-shadow-2xl md:text-7xl  text-white animate__animated animate__bounce ">{nEstate.segment_name}</h1>
                     </div>
                 </div>
                 <div className="max-w-6xl animate__animated animate__fadeInUp mx-auto ">
@@ -159,8 +159,8 @@ const EstateDetails = () => {
 
                                 
 
-                               <a href="https://i.ibb.co/85B42r0/image-1000x600-2.png" target="_blank" >
-                               <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square cursor-pointer" src="https://i.ibb.co/85B42r0/image-1000x600-2.png" />
+                               <a href="https://i.ibb.co/XCBfqzJ/image-1000x600.png" target="_blank" >
+                               <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square cursor-pointer" src="https://i.ibb.co/XCBfqzJ/image-1000x600.png" />
                                </a>
 
                                <a href="https://i.ibb.co/0KxsNQg/13.png" target="_blank" >
@@ -171,8 +171,8 @@ const EstateDetails = () => {
                                <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square cursor-pointer" src="https://i.ibb.co/k1zFWNN/14.png" />
                                </a>
 
-                               <a href="https://i.ibb.co/Hp45Q9K/15.png" target="_blank" >
-                               <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square cursor-pointer" src="https://i.ibb.co/Hp45Q9K/15.png" />
+                               <a href="https://i.ibb.co/g97DH0v/1.jpg" target="_blank" >
+                               <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square cursor-pointer" src="https://i.ibb.co/g97DH0v/1.jpg" />
                                </a>
 
                                <a href="https://i.ibb.co/M1FgFSg/16.png" target="_blank" >
@@ -183,8 +183,8 @@ const EstateDetails = () => {
                                <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square cursor-pointer" src="https://i.ibb.co/34MwDFQ/17.png" />
                                </a>
 
-                               <a href="https://i.ibb.co/8cpD8Ny/18.png" target="_blank" >
-                               <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square cursor-pointer" src="https://i.ibb.co/8cpD8Ny/18.png" />
+                               <a href="https://i.ibb.co/hH4MLgT/image-1000x600.png" target="_blank" >
+                               <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square cursor-pointer" src="https://i.ibb.co/hH4MLgT/image-1000x600.png" />
                                </a>
 
 
