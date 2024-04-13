@@ -89,21 +89,21 @@ const Login = () => {
             })
     }
     return (
-        <div className="font-Mulish">
+        <div className="flex justify-center  items-center min-h-screen font-Mulish w-full h-screen bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/Rvxp3dD/minimalistic-cabin-blending-into-environment.jpg)`}}>
              <Helmet>
                 <title>FaLa | Login</title>
             </Helmet>
             <div className="flex justify-center items-center min-h-screen">
-                <div className="flex flex-col bg-white  md:w-[450px] p-10 pb-4 pt-2 rounded-xl border-2 border-blue-500 ">
+                <div className="flex flex-col bg-opacity-5 backdrop-blur-3xl bg-transparent-white  md:w-[450px] p-10 pb-4 pt-2 rounded-xl ">
                     <div className="mb-4 text-center border-b-2">
-                        <h1 className="my-2 text-3xl font-bold">Login</h1>
+                        <h1 className="my-2 text-3xl font-bold text-white ">Login</h1>
                     </div>
                     <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
                         <div className="space-y-2">
 
                             <div>
-                                <label htmlFor="email" className="block mb-2 text-sm">Email address</label>
-                                <input type="email" name="email" id="email" placeholder="Enter your email address" className="w-full px-3 py-2 border rounded-md border-gray-200 bg-gray-200 " {...register("userEmail",
+                                <label htmlFor="email" className="block text-white  mb-2 text-sm">Email address</label>
+                                <input type="email" name="email" id="email" placeholder="Enter your email address" className="w-full outline-none px-3 py-2 border rounded-md border-gray-200 bg-gray-200 " {...register("userEmail",
                                     {
                                         required: true,
                                         pattern: {
@@ -117,11 +117,11 @@ const Login = () => {
                             </div>
                             <div>
                                 <div className="flex justify-between mb-2">
-                                    <label htmlFor="password" className="text-sm">Password</label>
+                                    <label htmlFor="password" className="text-sm text-white ">Password</label>
 
                                 </div>
                                 <div className="relative">
-                                    <input type={show ? "text" : "password"} placeholder="Enter your password" className="w-full px-3 py-2 border rounded-md border-gray-200 bg-gray-200 "
+                                    <input type={show ? "text" : "password"} placeholder="Enter your password" className="w-full px-3 py-2 outline-none border rounded-md border-gray-200 bg-gray-200 "
                                         {...register("userPassword",
                                             {
                                                 required: true,
@@ -156,7 +156,7 @@ const Login = () => {
 
                     <div className="flex items-center pt-4 space-x-1">
                         <div className="flex-1 h-px sm:w-16 dark:bg-gray-300"></div>
-                        <p className="px-3 text-sm dark:text-gray-600">Login with social accounts</p>
+                        <p className="px-3 text-sm dark:text-gray-300">Login with social accounts</p>
                         <div className="flex-1 h-px sm:w-16 dark:bg-gray-300"></div>
                     </div>
                     <div className="flex justify-center space-x-4">
@@ -170,7 +170,7 @@ const Login = () => {
                             <FaGithub size={30} />
                         </button>
                     </div>
-                    <p className="px-6 text-sm text-center text-gray-400">Already have an account?
+                    <p className="px-6 text-sm text-center text-gray-300">Already have an account?
                         <Link to="/register" className="hover:underline text-red-600">Register</Link>.
                     </p>
                 </div>
