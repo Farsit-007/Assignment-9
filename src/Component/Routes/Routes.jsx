@@ -8,6 +8,7 @@ import UserProfile from "../UserProfile/UserProfile";
 import UpdateProfile from "../UpdateProfile/UpdateProfile";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import ErrorPage from "../ErrorPage/ErrorPage";
+import Gallery from "../Gallery/Gallery";
 
 const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path : '/updateprofile',
                 element : <PrivateRoute><UpdateProfile></UpdateProfile></PrivateRoute>,
+            },
+            {
+                path : '/gallery',
+                element : <Gallery></Gallery>,
             },
         ]
         

@@ -16,6 +16,7 @@ const Header = () => {
     })
     const Links = < >
         <li className="text-[16px] font-bold"><NavLink to='/' className={({ isActive }) => isActive ? 'text-white focus:text-white border-t-2 border-b-2  border-blue-500  font-bold ' : 'font-bold bg-transparent text-white'}  >Home</NavLink></li>
+        <li className="text-[16px] font-bold"><NavLink to='/gallery' className={({ isActive }) => isActive ? 'text-white focus:text-white border-t-2 border-b-2  border-blue-500  font-bold ' : 'font-bold bg-transparent text-white'}  >Gallery</NavLink></li>
         {
             user && 
             <>
