@@ -87,7 +87,7 @@ const Login = () => {
             })
     }
     return (
-        <div className="flex   justify-center  items-center min-h-screen font-Mulish w-full h-screen bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/LR0bkRy/3.jpg)` }}>
+        <div className="flex   justify-center  items-center min-h-screen font-Mulish w-full h-screen bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/crsRSBt/2150799631.jpg)` }}>
             <Helmet>
                 <title>FaLi | Login</title>
             </Helmet>

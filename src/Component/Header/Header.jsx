@@ -39,11 +39,11 @@ const Header = () => {
                             {Links}
                         </ul>
                     </div>
-                   <div className="flex items-center">
+                   <div className="flex gap-3 items-center">
                     <div className="w-[50px] h-[50px]">
                     <img src={f1} alt="" />
                     </div>
-                   <Link to='/' className="btn btn-ghost text-2xl md:text-3xl font-extrabold ">Fa<span className="text-blue-500" style={{ margin: '-8px' }}>L</span>i Vil<span className="text-blue-500" style={{ margin: '-8px' }}>L</span>a</Link>
+                   <Link to='/' className="text-2xl md:text-3xl font-extrabold ">Fa<span className="text-blue-500" >L</span>i Vil<span className="text-blue-500" >L</span>a</Link>
                    </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
