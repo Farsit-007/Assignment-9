@@ -16,7 +16,7 @@ const EstateDetails = () => {
     const { id } = useParams();
     const nEstate = estateB.find(newEst => newEst.id === id)
     return (
-        <div>
+        <div className="mb-20">
              <Helmet>
                 <title>FaLi | Estate Details</title>
             </Helmet>
@@ -51,7 +51,7 @@ const EstateDetails = () => {
                             <div className="py-3">
                                 <h1 className="text-3xl font-bold">Overview </h1>
                             </div>
-                            <div className="flex items-center gap-4 md:gap-16">
+                            <div className="flex items-center gap-6 md:gap-16">
                                 <div className="flex font-bold gap-2 items-center">
                                     <LiaBedSolid className="text-blue-500" size={30} />
                                     {nEstate.facilities[0].slice(0, 1)}
@@ -118,7 +118,7 @@ const EstateDetails = () => {
                             <h1 className="text-3xl font-bold py-2">Facilities </h1>
                             <div className="">
                                 {nEstate.facilities.map((facility, index) => (
-                                    <p className="flex items-center gap-2 py-1 font-medium" key={index}><IoMdArrowDroprightCircle className="text-blue-500 " size={20}/> {facility}</p>
+                                    <p className="flex items-center gap-2 py-1 font-medium" key={index}><span><IoMdArrowDroprightCircle className="text-blue-500 " size={20}/> </span>{facility}</p>
                                 ))}
                             </div>
                         </div>

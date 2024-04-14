@@ -117,7 +117,7 @@ const Register = () => {
                                 <button type="submit" className="w-full px-8 py-2 font-bold rounded-md bg-blue-500 text-xl ">Register</button>
                             </div>
                             <p className="px-6 text-sm text-center text-gray-300">Already have an account?
-                                <Link to="/login" className="hover:underline text-red-600">Login</Link>.
+                                <Link to="/login" className="hover:underline pl-1 text-red-600 font-extrabold">Login</Link>
                             </p>
                         </div>
                     </form>
