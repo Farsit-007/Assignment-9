@@ -3,7 +3,8 @@
     top: 0;
     left: 0;
     right: 0;
-    backdrop-filter: blur(10px); 
+    /* backdrop-filter: blur(10px);  */
+    background-color: #05030a4d;
     z-index: 10;
   }
   

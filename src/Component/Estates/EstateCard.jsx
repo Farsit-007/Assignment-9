@@ -12,7 +12,7 @@ const EstateCard = ({ estateA }) => {
     const {image,estate_title,description,price,segment_name,status,area,facilities,location,id}=estateA
     return (
         <div data-aos="fade-up"
-        data-aos-duration="2000" className="font-Mulish">
+        data-aos-duration="2000" className="font-Mulish mb-20">
             <div className="card  md:h-[510px] space-y-2 p-2 shadow-md">
                 <div className="relative">
                 <figure className=" rounded-xl">
