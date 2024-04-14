@@ -108,7 +108,7 @@ const Register = () => {
                             <div className="flex items-center gap-2 ">
                                 <input type="checkbox"  {...register("userTerms", { required: true })} />
                                 <label className="block " htmlFor="term">Accept Term & Conditions</label>
-                                {errors.userTerms && <small className="text-red-500">(This field is required)</small>}
+                                {errors.userTerms && <small className="text-red-500">(Please accept out terms & conditions)</small>}
                             </div>
 
                         </div>

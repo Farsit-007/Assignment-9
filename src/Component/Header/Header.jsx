@@ -36,15 +36,15 @@ const Header = () => {
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </div>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+                        <ul tabIndex={0} className="menu  menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#05030a] rounded-box w-52 ">
                             {Links}
                         </ul>
                     </div>
                    <div className="flex gap-3 items-center">
-                    <div className="w-[50px] h-[50px]">
+                    <div className="w-[30px] h-[30px] md:w-[50px] md:h-[50px]">
                     <img src={f1} alt="" />
                     </div>
-                   <Link to='/' className="text-2xl md:text-3xl font-extrabold ">Fa<span className="text-blue-500" >L</span>i Vil<span className="text-blue-500" >L</span>a</Link>
+                   <Link to='/' className="text-xl md:text-3xl font-extrabold ">Fa<span className="text-blue-500" >L</span>i  Vil<span className="text-blue-500" >L</span>a</Link>
                    </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -53,7 +53,7 @@ const Header = () => {
                     </ul>
                 </div>
                 {
-                    user ? <div className="navbar-end flex items-center gap-2  pl-8">
+                    user ? <div className=" navbar-end flex items-center gap-2  md:pl-8">
                         <div className="tooltip  tooltip-bottom" data-tip={user?.displayName || "User Name"}>
                             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
@@ -64,7 +64,7 @@ const Header = () => {
                         <div className="">
                             <Link to='/login' onClick={handleLogout} className="btn text-white bg-transparent text-[16px] font-bold">Logout</Link>
                         </div>
-                    </div> : <div className="navbar-end flex items-center gap-2  pl-8"><Link to='/login' className="text-[16px] font-bold btn bg-transparent text-white">Login</Link></div>
+                    </div> : <div className="navbar-end flex items-center gap-2  md:pl-8"><Link to='/login' className="text-[16px] font-bold btn bg-transparent text-white">Login</Link></div>
                 }
 
             </div>

@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async";
 const UserProfile = () => {
     const { user } = useContext(AuthContext);
     return (
-        <div className="flex justify-center  items-center min-h-screen font-Mulish w-full h-screen bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/BBZXZg1/3d-rendering-house-model.jpg)`}}>
+        <div className="flex justify-center  items-center min-h-[580px] md:min-h-[630px] lg:min-h-screen font-Mulish w-full bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/BBZXZg1/3d-rendering-house-model.jpg)`}}>
            
             <Helmet>
                 <title>FaLi | User Profile</title>

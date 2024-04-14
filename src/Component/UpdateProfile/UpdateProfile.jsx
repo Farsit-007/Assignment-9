@@ -30,7 +30,7 @@ const UpdateProfile = () => {
             })
     }
     return (
-        <div className="flex justify-center pt-12 items-center min-h-screen font-Mulish w-full h-[700px] bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/hgtXydB/modern-architecture-illuminates-night-with-luxury-elegance-generated-by-artificial-intelligence.jpg)` }}>
+        <div className="flex justify-center pt-12 items-center font-Mulish w-full min-h-[750px] md:min-h-screen bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/hgtXydB/modern-architecture-illuminates-night-with-luxury-elegance-generated-by-artificial-intelligence.jpg)` }}>
              <Helmet>
                 <title>FaLi | Update Profile</title>
             </Helmet>

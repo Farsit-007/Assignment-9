@@ -32,7 +32,7 @@ const Footer = () => {
                 </nav>
                 
             </footer>
-            <div className='flex justify-center max-w-6xl mx-auto text-slate-300 py-5'>
+            <div className='flex text-center justify-center max-w-6xl mx-auto text-slate-300 py-5'>
                     <p>Copyright © 2024 - All right reserved by FaLi Industries Ltd</p>
             </div>
         </div>
