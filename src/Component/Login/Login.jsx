@@ -28,7 +28,7 @@ const Login = () => {
         const { userEmail, userPassword } = data;
         loginUser(userEmail, userPassword)
             .then(result => {
-                toast.success("Welcome to FL Villa")
+                toast.success("Welcome to FaLi VilLa")
                 navigate(location.state ? location.state : '/')
                 reset()
             })
