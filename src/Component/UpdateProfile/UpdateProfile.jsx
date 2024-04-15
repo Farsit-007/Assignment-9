@@ -4,7 +4,8 @@ import { useNavigate } from "react-router-dom";
 import lottieJson from '../../assets/Animation - 1712776024840.json'
 import { useContext } from 'react';
 import { AuthContext } from '../AuthProvider/AuthProvider';
-import toast, { Toaster } from 'react-hot-toast';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from 'react-helmet-async';
 import { ScrollRestoration } from "react-router-dom";
 const UpdateProfile = () => {
@@ -77,7 +78,7 @@ const UpdateProfile = () => {
                 </div>
             </div>
             <ScrollRestoration />
-            <Toaster />
+            <ToastContainer />
         </div>
     );
 };

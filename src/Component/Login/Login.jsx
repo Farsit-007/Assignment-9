@@ -6,7 +6,8 @@ import { AuthContext } from "../AuthProvider/AuthProvider";
 import { IoEye } from "react-icons/io5";
 import { IoEyeOff } from "react-icons/io5";
 import { ScrollRestoration } from "react-router-dom";
-import toast, { Toaster } from 'react-hot-toast';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from "react-helmet-async";
 const Login = () => {
     const { loginUser, facebokLogin, googleSign, githubLogin } = useContext(AuthContext);
@@ -43,7 +44,7 @@ const Login = () => {
     const handleGoogle = () => {
         googleSign()
             .then(result => {
-                toast.success("Welcome to FL Villa")
+                toast.success("Welcome to FaLi VilLa")
                 setTimeout(() => {
                     navigate(location.state ? location.state : '/')
                 }, 1000);
@@ -174,7 +175,7 @@ const Login = () => {
                 </div>
             </div>
             <ScrollRestoration />
-            <Toaster />
+            <ToastContainer />
         </div>
     );
 };

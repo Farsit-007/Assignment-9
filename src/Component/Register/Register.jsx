@@ -5,7 +5,8 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { IoEye } from "react-icons/io5";
 import { IoEyeOff } from "react-icons/io5";
-import toast, { Toaster } from 'react-hot-toast';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from "react-helmet-async";
 import { ScrollRestoration } from "react-router-dom";
 const Register = () => {
@@ -27,7 +28,7 @@ const Register = () => {
         const { userEmail, userPassword, userName, userPhoto } = data;
         createUser(userEmail, userPassword)
             .then(result => {
-                toast.success("User Created")
+                toast.success("Welcome to FaLi VilLa")
                 profileUpdate(userName, userPhoto)
                     .then(() => {
                         navigate('/')
@@ -124,7 +125,7 @@ const Register = () => {
                 </div>
             </div>
             <ScrollRestoration />
-            <Toaster />
+            <ToastContainer />
         </div>
     );
 };
