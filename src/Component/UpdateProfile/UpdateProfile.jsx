@@ -57,13 +57,13 @@ const UpdateProfile = () => {
                                     {...register("userName", { required: true })}
 
                                 />
-                                {errors.userName && <small className='text-red-500'>Please give your name</small>}
+                                {errors.userName && <small className='text-red-500 font-bold'>Please give your name</small>}
                             </div>
 
                             <div>
                                 <label htmlFor="photo" className="block  text-white mb-2 text-sm">Photo url</label>
                                 <input type="url" placeholder="Enter your photo url" className="w-full px-3 py-2 text-white border outline-none rounded-md bg-transparent " {...register("userPhoto", { required: true })} />
-                                {errors.userPhoto && <small className='text-red-500'>Please give your profile URL</small>}
+                                {errors.userPhoto && <small className='text-red-500 font-bold'>Please give your profile URL</small>}
                             </div>
 
                         </div>

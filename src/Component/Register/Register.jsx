@@ -70,7 +70,7 @@ const Register = () => {
                                         }
                                     }
                                 )} />
-                                {errors.userEmail && <small className="text-red-500">{errors.userEmail.message}</small>}
+                                {errors.userEmail && <small className="text-red-500 font-bold">{errors.userEmail.message}</small>}
 
                             </div>
                             <div>
@@ -104,12 +104,12 @@ const Register = () => {
                                     </span>
 
                                 </div>
-                                {errors.userPassword && <small className="text-red-500">{errors.userPassword.message}</small>}
+                                {errors.userPassword && <small className="text-red-500 font-bold">{errors.userPassword.message}</small>}
                             </div>
                             <div className="flex items-center gap-2 ">
                                 <input type="checkbox"  {...register("userTerms", { required: true })} />
                                 <label className="block " htmlFor="term">Accept Term & Conditions</label>
-                                {errors.userTerms && <small className="text-red-500">(Please accept out terms & conditions)</small>}
+                                {errors.userTerms && <small className="text-red-500 font-bold">(Please accept out terms & conditions)</small>}
                             </div>
 
                         </div>

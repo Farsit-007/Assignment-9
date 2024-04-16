@@ -113,7 +113,7 @@ const Login = () => {
                                         }
                                     }
                                 )} />
-                                {errors.userEmail && <small className="text-red-500">{errors.userEmail.message}</small>}
+                                {errors.userEmail && <small className="text-red-500 font-bold">{errors.userEmail.message}</small>}
 
                             </div>
                             <div>
@@ -142,7 +142,7 @@ const Login = () => {
                                     </span>
 
                                 </div>
-                                {errors.userPassword && <small className="text-red-500">{errors.userPassword.message}</small>}
+                                {errors.userPassword && <small className="text-red-500 font-bold">{errors.userPassword.message}</small>}
                             </div>
 
 

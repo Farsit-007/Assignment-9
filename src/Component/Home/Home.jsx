@@ -95,7 +95,7 @@ const Home = () => {
                             </svg>
                         </div>
                         <span className="w-12 h-1 my-2 rounded-lg dark:bg-blue-500"></span>
-                        <p>Leroy Jenkins</p>
+                        <p>LRobert Charle</p>
                     </div>
                 </div>
             </section>

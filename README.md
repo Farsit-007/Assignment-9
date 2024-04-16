@@ -6,14 +6,13 @@ Github Code link : https://github.com/programming-hero-web-course-4/b9a9-real-es
 
 
 
-
 • Sticky Header Navigation:
 
-   Enjoy a convenient sticky header featuring Home, Gallery, and About sections for easy navigation throughout the site.
+   Enjoy a convenient sticky header featuring Home, Gallery, and About sections for easy navigation throughout the site.Also have the login routes and the Register in the login routes.
 
 • Public and Private Routes:
 
-     Access public routes like Home, Gallery, and About Us.
+     Access public routes like Home, Gallery,About Us  and Login.
      Private routes such as User Profile, Update Profile, and Contact Us are exclusively available to registered users.
 
 • Slider and Estate Cards:
