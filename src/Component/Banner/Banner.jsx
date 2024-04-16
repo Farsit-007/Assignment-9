@@ -29,7 +29,7 @@ const Banner = () => {
                 >
                 <SwiperSlide>
 
-                    <div className='w-full flex justify-start items-center h-screen bg-cover' style={{ backgroundImage: `url(https://i.ibb.co/Rvxp3dD/minimalistic-cabin-blending-into-environment.jpg)` }} >
+                    <div className='w-full flex justify-start items-center h-screen bg-cover' style={{ backgroundImage: `url(https://i.ibb.co/yXhZLqd/minimalistic-cabin-blending-into-environment-1.webp)` }} >
                         <div className='w-[80%] mx-auto flex flex-col-reverse md:flex-row gap-12 items-center'>
 
                             <div className='flex md:flex-col gap-6 animate__animated animate__fadeIn  text-white'>
@@ -52,7 +52,7 @@ const Banner = () => {
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className='w-full flex justify-start items-center h-screen bg-cover' style={{ backgroundImage: `url(https://i.ibb.co/db3ytzd/2.jpg)` }} >
+                    <div className='w-full flex justify-start items-center h-screen bg-cover' style={{ backgroundImage: `url(https://i.ibb.co/K6Kvw5K/2-1.webp)` }} >
                         <div className='w-[80%] mx-auto flex flex-col-reverse md:flex-row gap-12 items-center'>
 
                             <div className='flex md:flex-col gap-6 animate__animated animate__fadeIn  text-white'>
@@ -75,7 +75,7 @@ const Banner = () => {
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className='w-full flex justify-start items-center h-screen bg-cover' style={{ backgroundImage: `url(https://i.ibb.co/8gKd2RK/3d-rendering-house-model.jpg)` }} >
+                    <div className='w-full flex justify-start items-center h-screen bg-cover' style={{ backgroundImage: `url(https://i.ibb.co/6gLdMxk/3d-rendering-house-model-1.webp)` }} >
                         <div className='w-[80%] mx-auto flex flex-col-reverse md:flex-row gap-12 items-center'>
 
                             <div className='flex md:flex-col gap-6 animate__animated animate__fadeIn  text-white'>

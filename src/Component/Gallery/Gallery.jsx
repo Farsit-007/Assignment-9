@@ -8,7 +8,7 @@ const Gallery = () => {
                 <title>FaLi | Gallery</title>
             </Helmet>
             <section className="">
-                <div className=" bg-cover bg-slate-50 " style={{ backgroundImage: `url(https://i.ibb.co/d6PmYCx/image-1000x400.png)` }}>
+                <div className=" bg-cover bg-slate-50 " style={{ backgroundImage: `url(https://i.ibb.co/9NPn5zX/image-1000x400-1.png)` }}>
                     <div className="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 text-gray-900">
                         <h1 className="text-5xl font-bold leading-none sm:text-7xl xl:max-w-3xl text-white playfair animate__animated animate__bounce">Gallery</h1>
                         <p className="mt-6 mb-8 text-lg workSans sm:mb-12 xl:max-w-3xl text-white animate__animated animate__bounce">Welcome to FaLi Villa, where every property is a masterpiece waiting to be discovered. Explore our curated collection of distinctive homes and let their unique charm capture your imagination. Find your dream home at FaLi Villa today!</p>

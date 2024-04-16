@@ -42,7 +42,7 @@ const Register = () => {
             })
     }
     return (
-        <div className="flex justify-center  items-center min-h-[700px] font-Mulish w-full  bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/w0507tx/2151004024.jpg)` }}>
+        <div className="flex justify-center  items-center min-h-[700px] font-Mulish w-full  bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/Sf0ws3p/2151004024-1.webp)` }}>
              <Helmet>
                 <title>FaLi | Register</title>
             </Helmet>
