@@ -44,7 +44,7 @@ const Register = () => {
     return (
         <div className="flex justify-center  items-center min-h-[700px] font-Mulish w-full  bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/Sf0ws3p/2151004024-1.webp)` }}>
              <Helmet>
-                <title>FaLi | Register</title>
+                <title>FaLi VilLa | Register</title>
             </Helmet>
             <div className="flex justify-center items-center min-h-screen">
                 <div className="flex flex-col md:w-[450px] animate__animated animate__zoomIn mt-8 p-10 pb-4 pt-2 rounded-xl text-white bg-opacity-5 backdrop-blur-3xl bg-transparent-white">

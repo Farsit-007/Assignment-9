@@ -5,7 +5,7 @@ const Gallery = () => {
     return (
         <div>
               <Helmet>
-                <title>FaLi | Gallery</title>
+                <title>FaLi VilLa | Gallery</title>
             </Helmet>
             <section className="">
                 <div className=" bg-cover bg-slate-50 " style={{ backgroundImage: `url(https://i.ibb.co/9NPn5zX/image-1000x400-1.png)` }}>
@@ -24,7 +24,7 @@ const Gallery = () => {
                 <h1 className='text-center py-6 playfair text-5xl font-bold leading-none sm:text-5xl'>Villa Gallery</h1>
 
                 <div data-aos="fade-up"
-                    data-aos-duration="2000" className="container shadow-md rounded-lg grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 animate__animated animate__fadedup">
+                data-aos-duration="1000" className="max-w-6xl shadow-md rounded-lg grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 animate__animated animate__fadedup">
 
                     <a href="https://i.ibb.co/ZNYCmNB/2150666300.jpg" target="_blank" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm  md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square cursor-pointer">
                         <img src="https://i.ibb.co/ZNYCmNB/2150666300.jpg" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm  md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square cursor-pointer" alt="" />

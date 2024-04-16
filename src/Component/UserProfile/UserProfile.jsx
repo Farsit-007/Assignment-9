@@ -8,7 +8,7 @@ const UserProfile = () => {
         <div className="flex justify-center  items-center min-h-[580px] md:min-h-[630px] lg:min-h-screen font-Mulish w-full bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/2PJXSN7/wer-1.webp)`}}>
            
             <Helmet>
-                <title>FaLi | User Profile</title>
+                <title>FaLi VilLa | User Profile</title>
             </Helmet>
             <div className="flex flex-col animate__animated animate__zoomIn justify-center bg-opacity-5 backdrop-blur-3xl bg-transparent-white space-y-4 w-[90%] mx-auto md:w-[450px] md:h-[450px] p-6  rounded-xl sm:px-12 ">
                 <div className="flex justify-end">

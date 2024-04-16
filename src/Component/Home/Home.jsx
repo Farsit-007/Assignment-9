@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className="font-Mulish">
             <Helmet>
-                <title>FaLi | Home</title>
+                <title>FaLi VilLa | Home</title>
             </Helmet>
             <div className="z-20">
                 <Banner></Banner>

@@ -25,7 +25,7 @@ const Contact = () => {
     return (
         <div className="font-Mulish">
             <Helmet>
-                <title>FaLi | Contact Us</title>
+                <title>FaLi VilLa | Contact Us</title>
             </Helmet>
 
             <div className=" bg-cover object-cover bg-slate-50" style={{ backgroundImage: `url(https://i.ibb.co/PNrDTbW/2151302621-1.jpg)` }}>
@@ -34,7 +34,8 @@ const Contact = () => {
                 </div>
             </div>
             <div className="max-w-6xl my-20 mx-auto">
-                <section className="py-8  bg-slate-100 rounded-xl">
+                <section data-aos="fade-up"
+                data-aos-duration="1000" className="py-8  bg-slate-100 rounded-xl">
                     <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                         <div className="py-6 md:py-0 md:px-6">
                             <h1 className="text-4xl font-bold">Get in touch</h1>

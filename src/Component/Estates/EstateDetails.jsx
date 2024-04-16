@@ -18,7 +18,7 @@ const EstateDetails = () => {
     return (
         <div className="mb-20">
              <Helmet>
-                <title>FaLi | Estate Details</title>
+                <title>FaLi VilLa | Estate Details</title>
             </Helmet>
             <section className="font-Mulish">
                 <div className=" bg-cover object-cover bg-slate-50" style={{ backgroundImage: `url(${nEstate.image})` }}>

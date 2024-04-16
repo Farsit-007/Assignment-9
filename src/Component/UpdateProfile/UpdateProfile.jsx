@@ -33,7 +33,7 @@ const UpdateProfile = () => {
     return (
         <div className="flex justify-center pt-12 items-center font-Mulish w-full min-h-[750px] md:min-h-screen bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/9ryKPB1/we-1.webp)` }}>
              <Helmet>
-                <title>FaLi | Update Profile</title>
+                <title>FaLi VilLa | Update Profile</title>
             </Helmet>
             <div className="md:w-[700px] animate__animated animate__zoomIn p-8 bg-opacity-5 backdrop-blur-3xl bg-transparent-white rounded-xl sm:flex sm:items-center sm:space-x-6">
                 <div className="flex-shrink-0 w-full mb-6  md:w-[50%] sm:mb-0">
