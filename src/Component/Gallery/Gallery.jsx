@@ -1,4 +1,6 @@
 import { Helmet } from "react-helmet-async";
+
+import { ScrollRestoration } from "react-router-dom";
 const Gallery = () => {
     return (
         <div>
@@ -65,6 +67,7 @@ const Gallery = () => {
 
                 </div>
             </section>
+            <ScrollRestoration />
         </div>
     );
 };

@@ -2,6 +2,8 @@ import { useLoaderData } from "react-router-dom";
 import EstateCard from "../Estates/EstateCard";
 import Banner from "../Banner/Banner";
 import { Helmet } from "react-helmet-async";
+
+import { ScrollRestoration } from "react-router-dom";
 const Home = () => {
     const estates = useLoaderData();
     return (
@@ -24,7 +26,7 @@ const Home = () => {
             </div>
             <section className="pt-6">
                 <div data-aos="fade-up"
-                    data-aos-duration="2000" className="container  flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-6">
+                    data-aos-duration="1000" className="container  flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-6">
                     <h1 className="text-4xl font-bold leading-none playfair text-center sm:text-5xl">Our Agents</h1>
                     <p className="max-w-2xl text-center text-gray-400 workSans ">FaLI VilLa is dedicated to curating a diverse portfolio of real estate listings that inspire and enrich lives. Our goal is to help you find the perfect property that aligns with your lifestyle and aspirations.</p>
                     <div className="flex flex-row flex-wrap-reverse justify-center">
@@ -60,7 +62,7 @@ const Home = () => {
                 </div>
             </section>
             <section data-aos="fade-up"
-                data-aos-duration="2000"  className="mb-10">
+                data-aos-duration="1000"  className="mb-10">
                 <div className="container mx-auto flex flex-col items-center pb-6 mb-4 md:p-10 md:px-12">
                     <h1 className="text-4xl font-bold leading-none text-center">What our customers are saying about us</h1>
                 </div>
@@ -97,6 +99,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <ScrollRestoration />
         </div>
     );
 };

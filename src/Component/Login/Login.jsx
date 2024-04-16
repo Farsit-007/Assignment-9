@@ -35,7 +35,7 @@ const Login = () => {
             })
             .catch(error => {
                 if (error.message) {
-                    toast.error("Matched no email/password")
+                    toast.error("Wrong email/password")
                     reset()
                 }
             })
