@@ -6,7 +6,7 @@ const AboutUs = () => {
             <Helmet>
                 <title>FaLi | About Us</title>
             </Helmet>
-            <div className=" bg-cover object-cover bg-slate-50" style={{ backgroundImage: `url(https://i.ibb.co/d6PmYCx/image-1000x400.png)` }}>
+            <div className=" bg-cover object-cover bg-slate-50" style={{ backgroundImage: `url(https://i.ibb.co/5nRcXKJ/2151004029-1.jpg)` }}>
                 <div className="flex flex-col justify-center items-center min-h-[350px] md:min-h-[550px]">
                     <h1 className="text-5xl text-center font-bold drop-shadow-2xl md:text-7xl  text-white animate__animated animate__bounce ">About FaLi VilLa</h1>
                     <p className="mt-6 mb-8 text-lg  sm:mb-12 xl:max-w-3xl text-white animate__animated animate__bounce text-center">Welcome to FaLi Villa, where every property is a masterpiece waiting to be discovered. Explore our curated collection of distinctive homes and find your dream residence today!</p>
@@ -21,7 +21,7 @@ const AboutUs = () => {
 
                         </div>
                         <div aria-hidden="true" className="mt-10 lg:mt-0">
-                            <img src="https://source.unsplash.com/random/360x480" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
+                            <img src="https://i.ibb.co/zJnbh4f/2150799725-1.jpg" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
                         </div>
                     </div>
                     <div>
@@ -31,7 +31,7 @@ const AboutUs = () => {
                                 <p className="mt-3 text-lg ">Founded in 2008 in Villa Springs by visionary entrepreneurs Fiona Lawson and Liam Villanova, FaLi Villa is the result of their shared passion for architecture and design. Fiona, an architect, and Liam, a real estate investor, combined their expertise to redefine the real estate landscape. The name "FaLi Villa" honors their commitment to exceptional service and curated homes. Since inception, FaLi Villa has been synonymous with personalized attention, exceptional properties, and fulfilling real estate journeys.</p>
                             </div>
                             <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-                                <img src="https://source.unsplash.com/random/361x481" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
+                                <img src="https://i.ibb.co/Tt1HvJK/35839-1.jpg" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const AboutUs = () => {
                     </div>
                     <div className="lg:w-1/2 xl:w-3/5 ">
                         <div className="flex items-center justify-center p-4 md:p-8 lg:p-12">
-                            <img src="https://source.unsplash.com/640x480/" alt="" className="rounded-lg shadow-lg bg-gray-500 aspect-video sm:min-h-96" />
+                            <img src="https://i.ibb.co/hZMXw6h/2150799631-1.webp" alt="" className="rounded-lg shadow-lg bg-gray-500 aspect-video sm:min-h-96" />
                         </div>
                     </div>
                 </div>

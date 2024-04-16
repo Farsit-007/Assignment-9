@@ -28,7 +28,7 @@ const Contact = () => {
                 <title>FaLi | Contact Us</title>
             </Helmet>
 
-            <div className=" bg-cover object-cover bg-slate-50" style={{ backgroundImage: `url(https://i.ibb.co/d6PmYCx/image-1000x400.png)` }}>
+            <div className=" bg-cover object-cover bg-slate-50" style={{ backgroundImage: `url(https://i.ibb.co/PNrDTbW/2151302621-1.jpg)` }}>
                 <div className="flex flex-col justify-center items-center min-h-[350px] md:min-h-[550px]">
                     <h1 className="text-5xl text-center font-bold drop-shadow-2xl md:text-7xl  text-white animate__animated animate__bounce ">Contact Us</h1>
                 </div>

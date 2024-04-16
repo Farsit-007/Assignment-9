@@ -29,7 +29,7 @@ const Login = () => {
         const { userEmail, userPassword } = data;
         loginUser(userEmail, userPassword)
             .then(result => {
-                toast.success("Welcome to FL Villa")
+                toast.success("Welcome to FaLi VilLa")
                 setTimeout(() => {
                     navigate(location.state ? location.state : '/')
                     reset()
@@ -62,7 +62,7 @@ const Login = () => {
     const handleFacebook = () => {
         facebokLogin()
             .then(result => {
-                toast.success("Welcome to FL Villa")
+                toast.success("Welcome to FaLi VilLa")
                 setTimeout(() => {
                     navigate(location.state ? location.state : '/')
                 }, 1000);
@@ -78,7 +78,7 @@ const Login = () => {
         githubLogin()
 
             .then(result => {
-                toast.success("Welcome to FL Villa")
+                toast.success("Welcome to FaLi VilLa")
                 setTimeout(() => {
                     navigate(location.state ? location.state : '/')
                 }, 1000);
@@ -90,7 +90,7 @@ const Login = () => {
             })
     }
     return (
-        <div className="flex   justify-center  items-center min-h-screen font-Mulish w-full bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/hZMXw6h/2150799631-1.webp)` }}>
+        <div className="flex   justify-center  items-center min-h-screen font-Mulish w-full bg-cover" style={{ backgroundImage: `url(https://i.ibb.co/yB20QHr/2150799775-1.jpg)` }}>
             <Helmet>
                 <title>FaLi | Login</title>
             </Helmet>
