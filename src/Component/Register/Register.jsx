@@ -28,7 +28,7 @@ const Register = () => {
         const { userEmail, userPassword, userName, userPhoto } = data;
         createUser(userEmail, userPassword)
             .then(result => {
-                toast.success("Welcome to FaLi VilLa")
+                toast.success("Your account have registered!!")
                 profileUpdate(userName, userPhoto)
                     .then(() => {
                         navigate('/')

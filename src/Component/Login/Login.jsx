@@ -29,7 +29,7 @@ const Login = () => {
         const { userEmail, userPassword } = data;
         loginUser(userEmail, userPassword)
             .then(result => {
-                toast.success("Welcome to FaLi VilLa")
+                toast.success("Logged in successfully")
                 setTimeout(() => {
                     navigate(location.state ? location.state : '/')
                     reset()
@@ -46,7 +46,7 @@ const Login = () => {
     const handleGoogle = () => {
         googleSign()
             .then(result => {
-                toast.success("Welcome to FaLi VilLa")
+                toast.success("Logged in successfully")
                 setTimeout(() => {
                     navigate(location.state ? location.state : '/')
                 }, 1000);
@@ -64,7 +64,7 @@ const Login = () => {
         githubLogin()
 
             .then(result => {
-                toast.success("Welcome to FaLi VilLa")
+                toast.success("Logged in successfully")
                 setTimeout(() => {
                     navigate(location.state ? location.state : '/')
                 }, 1000);
