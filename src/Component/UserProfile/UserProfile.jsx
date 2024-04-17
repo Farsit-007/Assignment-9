@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import { ScrollRestoration } from "react-router-dom";
 const UserProfile = () => {
     const { user } = useContext(AuthContext);
     return (
@@ -45,6 +46,7 @@ const UserProfile = () => {
                     </div>
                 </div>
             </div>
+            <ScrollRestoration />
         </div>
     );
 };
